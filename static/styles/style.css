@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 2rem;
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    gap: 2rem;
+    font-size: 2rem;
+    color: whitesmoke;
+    flex-direction: column;
+    background-color: #333;
+}
+
+input,
+button {
+    font-size: 3rem;
+    padding: 3px 2px;
+    border-radius: 10px;
+    font-style: italic;
+    font-family: cursive;
+}
